@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-inmotionnow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TSLint config for inMotionNow",
   "main": "tslint.js",
   "scripts": {
