@@ -10,7 +10,13 @@ yarn add tslint-config-inmotionnow --dev
 
 ## Usage
 
-In `tslint.json`:
+To use the inMotionNow sharable config, first run:
+
+```
+yarn add tslint tslint-config-prettier tslint-eslint-rules tslint-microsoft-contrib tslint-react --dev
+```
+
+Then, add this to your `tslint.json` file:
 
 ```
 {
