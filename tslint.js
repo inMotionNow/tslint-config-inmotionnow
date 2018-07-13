@@ -5,8 +5,8 @@ module.exports = {
     "tslint-config-prettier",
   ],
   "rulesDirectory": [
-    "node_modules/tslint-eslint-rules/dist/rules",
-    "node_modules/tslint-microsoft-contrib",
+    "../tslint-eslint-rules/dist/rules",
+    "../tslint-microsoft-contrib",
     "rules",
   ],
   "rules": {

@@ -23,5 +23,13 @@
     "tslint-microsoft-contrib": "^5.0.3",
     "tslint-react": "^3.6.0",
     "typescript": "^2.9.2"
+  },
+  "peerDependencies": {
+    "tslint": ">=^5.10.0",
+    "tslint-config-prettier": ">=^1.13.0",
+    "tslint-eslint-rules": ">=^5.3.1",
+    "tslint-microsoft-contrib": ">=^5.0.3",
+    "tslint-react": ">=^3.6.0",
+    "typescript": ">^2.9.2"
   }
 }
