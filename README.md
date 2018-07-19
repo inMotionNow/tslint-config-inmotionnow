@@ -1,5 +1,7 @@
 # TSLint Config inMotionNow
 
+[![NPM](https://nodei.co/npm/tslint-config-inmotionnow.png)](https://nodei.co/npm/tslint-config-inmotionnow/)
+
 [![NPM version](https://img.shields.io/npm/v/tslint-config-inmotionnow.svg?style=flat)](https://npmjs.org/package/tslint-config-inmotionnow)
 
 ## Installation
