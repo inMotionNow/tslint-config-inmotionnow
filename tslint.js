@@ -1,5 +1,4 @@
 'use strict'
-const path = require('path')
 
 module.exports = {
   extends: [
@@ -11,6 +10,18 @@ module.exports = {
   ],
   rulesDirectory: ['rules'],
   rules: {
-    'type-i-prefix': true,
+    'completed-docs': false,
+    'missing-jsdoc': false,
+    'no-spread-object-literal-as-props': true,
+    'ordered-imports': [
+      true,
+      {
+        'grouped-imports': true,
+        'import-sources-order': 'case-insensitive',
+        'module-source-path': 'full',
+        'named-imports-order': 'case-insensitive',
+      },
+    ],
+    semicolon: { options: ['never'] },
   },
 }

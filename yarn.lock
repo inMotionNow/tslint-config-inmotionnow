@@ -251,18 +251,19 @@ tslint-eslint-rules@^5.3.1:
     tslib "1.9.0"
     tsutils "^3.0.0"
 
-tslint-microsoft-contrib@^5.0.3:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-5.2.1.tgz#a6286839f800e2591d041ea2800c77487844ad81"
-  integrity sha512-PDYjvpo0gN9IfMULwKk0KpVOPMhU6cNoT9VwCOLeDl/QS8v8W2yspRpFFuUS7/c5EIH/n8ApMi8TxJAz1tfFUA==
+tslint-microsoft-contrib@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-6.1.1.tgz#1de9b5c2867f6cec762bab9d8e1619f2b8eb59fc"
+  integrity sha512-u6tK+tgt8Z1YRJxe4kpWWEx/6FTFxdga50+osnANifsfC7BMzh8c/t/XbNntTRiwMfpHkQ9xtUjizCDLxN1Yeg==
   dependencies:
     tsutils "^2.27.2 <2.29.0"
 
-tslint-react@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-3.6.0.tgz#7f462c95c4a0afaae82507f06517ff02942196a1"
+tslint-react@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-4.0.0.tgz#b4bb4c01c32448cb14d23f143a2f5e4989bb961e"
+  integrity sha512-9fNE0fm9zNDx1+b6hgy8rgDN2WsQLRiIrn3+fbqm0tazBVF6jiaCFAITxmU+WSFWYE03Xhp1joCircXOe1WVAQ==
   dependencies:
-    tsutils "^2.13.1"
+    tsutils "^3.9.1"
 
 tslint@^5.10.0:
   version "5.16.0"
@@ -283,12 +284,6 @@ tslint@^5.10.0:
     tslib "^1.8.0"
     tsutils "^2.29.0"
 
-tsutils@^2.13.1:
-  version "2.27.2"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.27.2.tgz#60ba88a23d6f785ec4b89c6e8179cac9b431f1c7"
-  dependencies:
-    tslib "^1.8.1"
-
 "tsutils@^2.27.2 <2.29.0":
   version "2.28.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.28.0.tgz#6bd71e160828f9d019b6f4e844742228f85169a1"
@@ -303,16 +298,17 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-tsutils@^3.0.0:
+tsutils@^3.0.0, tsutils@^3.10.0, tsutils@^3.9.1:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.10.0.tgz#6f1c95c94606e098592b0dff06590cf9659227d6"
   integrity sha512-q20XSMq7jutbGB8luhKKsQldRKWvyBO2BGqni3p4yq8Ys9bEP/xQw3KepKmMRt9gJ4lvQSScrihJrcKdKoSU7Q==
   dependencies:
     tslib "^1.8.1"
 
-typescript@^2.9.2:
-  version "2.9.2"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
+typescript@^3.4.5:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
+  integrity sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
 
 wrappy@1:
   version "1.0.2"

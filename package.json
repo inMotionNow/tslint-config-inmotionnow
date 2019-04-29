@@ -4,6 +4,7 @@
   "description": "A TSLint config for inMotionNow",
   "main": "tslint.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,11 +21,12 @@
     "tslint": "^5.10.0",
     "tslint-config-prettier": "^1.13.0",
     "tslint-eslint-rules": "^5.3.1",
-    "tslint-microsoft-contrib": "^5.0.3",
-    "tslint-react": "^3.6.0"
+    "tslint-microsoft-contrib": "^6.1.1",
+    "tslint-react": "^4.0.0"
   },
   "devDependencies": {
-    "typescript": "^2.9.2"
+    "tsutils": "^3.10.0",
+    "typescript": "^3.4.5"
   },
   "peerDependencies": {
     "tslint": ">=^5.10.0"
