@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     'tslint:latest',
     'tslint-react',
+    'tslint-config-prettier',
     'tslint-eslint-rules',
     'tslint-microsoft-contrib',
   ],
