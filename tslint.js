@@ -23,5 +23,6 @@ module.exports = {
       },
     ],
     semicolon: { options: ['never'] },
+    'type-literal-delimiter': false,
   },
 }
