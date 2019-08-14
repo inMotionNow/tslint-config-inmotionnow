@@ -22,7 +22,8 @@
     "tslint-config-prettier": "^1.18.0",
     "tslint-eslint-rules": "^5.3.1",
     "tslint-microsoft-contrib": "^6.1.1",
-    "tslint-react": "^4.0.0"
+    "tslint-react": "^4.0.0",
+    "tslint-react-hooks": "^2.2.1"
   },
   "devDependencies": {
     "tsutils": "^3.10.0",

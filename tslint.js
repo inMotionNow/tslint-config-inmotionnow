@@ -7,6 +7,7 @@ module.exports = {
     'tslint-eslint-rules',
     'tslint-microsoft-contrib',
     'tslint-config-prettier',
+    'tslint-react-hooks'
   ],
   rulesDirectory: ['rules'],
   rules: {
