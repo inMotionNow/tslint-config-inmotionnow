@@ -14,6 +14,12 @@ module.exports = {
     'completed-docs': false,
     'missing-jsdoc': false,
     'no-spread-object-literal-as-props': true,
+    "no-this-assignment": [
+      true,
+      {
+        "allow-destructuring": true
+      }
+    ],
     'ordered-imports': [
       true,
       {
