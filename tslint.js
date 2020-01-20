@@ -7,18 +7,19 @@ module.exports = {
     'tslint-eslint-rules',
     'tslint-microsoft-contrib',
     'tslint-config-prettier',
-    'tslint-react-hooks'
+    'tslint-react-hooks',
   ],
   rulesDirectory: ['rules'],
   rules: {
     'completed-docs': false,
+    'jsx-curly-brace-presence': true,
     'missing-jsdoc': false,
     'no-spread-object-literal-as-props': true,
-    "no-this-assignment": [
+    'no-this-assignment': [
       true,
       {
-        "allow-destructuring": true
-      }
+        'allow-destructuring': true,
+      },
     ],
     'ordered-imports': [
       true,
