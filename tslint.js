@@ -32,5 +32,9 @@ module.exports = {
     ],
     semicolon: { options: ['never'] },
     'type-literal-delimiter': false,
+    'function-constructor': true,
+    'no-function-constructor-with-string-args': false,
+    'unnecessary-bind': true,
+    'no-unnecessary-bind': false,
   },
 }
