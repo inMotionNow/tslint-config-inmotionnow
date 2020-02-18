@@ -20,14 +20,24 @@ In `tslint.json`:
 }
 ```
 
-### Rules
+## Deploying a new tslint-config-inmotionnow package
+
+First build the package
+```
+yarn build
+```
+
+Then publish
+```
+npm publish
+```
+
+Publishing requires that you have the `NPM_TOKEN` environment variable set. Someone in dev can provide the token.
+
+## Rules
 
 * [tslint](https://www.npmjs.com/package/tslint)
 * [tslint-react](https://www.npmjs.com/package/tslint-react)
 * [tslint-config-prettier](https://www.npmjs.com/package/tslint-config-prettier)
 * [tslint-eslint-rules](https://www.npmjs.com/package/tslint-eslint-rules)
 * [tslint-microsoft-contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
-
-## License
-
-Apache 2.0
