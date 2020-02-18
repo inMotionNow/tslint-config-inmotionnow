@@ -36,5 +36,7 @@ module.exports = {
     'no-function-constructor-with-string-args': false,
     'unnecessary-bind': true,
     'no-unnecessary-bind': false,
+    'no-increment-decrement': false,
+    'increment-decrement': true,
   },
 }
