@@ -21,8 +21,9 @@ In `tslint.json`:
 ```
 
 ## Deploying a new tslint-config-inmotionnow package
+First make sure the version number in package.json has been incremented.
 
-First build the package
+Build the package
 ```
 yarn build
 ```
