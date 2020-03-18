@@ -12,8 +12,12 @@ module.exports = {
   rulesDirectory: ['rules'],
   rules: {
     'completed-docs': false,
+    'function-constructor': true,
+    'increment-decrement': true,
     'jsx-curly-brace-presence': true,
     'missing-jsdoc': false,
+    'no-function-constructor-with-string-args': false,
+    'no-increment-decrement': false,
     'no-spread-object-literal-as-props': true,
     'no-this-assignment': [
       true,
@@ -21,6 +25,7 @@ module.exports = {
         'allow-destructuring': true,
       },
     ],
+    'no-unnecessary-bind': false,
     'ordered-imports': [
       true,
       {
@@ -30,13 +35,9 @@ module.exports = {
         'named-imports-order': 'case-insensitive',
       },
     ],
+    'react-no-unnecessary-fragment': true,
     semicolon: { options: ['never'] },
     'type-literal-delimiter': false,
-    'function-constructor': true,
-    'no-function-constructor-with-string-args': false,
     'unnecessary-bind': true,
-    'no-unnecessary-bind': false,
-    'no-increment-decrement': false,
-    'increment-decrement': true,
   },
 }
